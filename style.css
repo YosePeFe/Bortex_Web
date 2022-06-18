@@ -1,0 +1,37 @@
+body {
+    background-image: url("img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+}
+
+#about {
+    font-family: 'CRENZO', sans-serif;
+    font-size: 11vw;
+}
+
+#desc {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.7vw;
+}
+
+h2 {
+    font-family: 'CRENZO', sans-serif;
+    font-size: 3vw;
+}
+
+.ilustrador {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.18vw;
+}
+
+.title {
+    font-family: 'Gotham', sans-serif;
+    font-size: 1.18vw;
+    font-weight: bold;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+}
