@@ -1,9 +1,26 @@
 body {
-    background-image: url("img/background.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
 }
+body#inicio {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+body#contact {
+    background-image: url("./img/background-contact.jpg");
+    background-size: 100vw 100vh;
+}
+body#projects {
+    background-image: url("img/background-projects.jpg");
+    background-size: 100vw 100vh;
+}
+
+h2 {
+    font-family: 'CRENZO', sans-serif;
+    font-size: 3vw;
+}
+
 
 #about {
     font-family: 'CRENZO', sans-serif;
@@ -12,26 +29,181 @@ body {
 
 #desc {
     font-family: 'Gotham', sans-serif;
-    font-size: 1.7vw;
+    font-size: .7rem;
+    margin-top: 6vw;
 }
 
-h2 {
-    font-family: 'CRENZO', sans-serif;
-    font-size: 3vw;
+.desc-text-right {
+    transform: translateX(-30%);
+    margin-top: 13%;
+}
+.desc-text-left {
+    transform: translateX(40%);
+    margin-top: 13%;
 }
 
 .ilustrador {
     font-family: 'Gotham', sans-serif;
-    font-size: 1.18vw;
+    font-size: .5rem;
 }
 
 .title {
     font-family: 'Gotham', sans-serif;
-    font-size: 1.18vw;
+    font-size: .5rem;
     font-weight: bold;
 }
 
-.responsive {
+.responsive-image {
     width: 100%;
     height: auto;
+}
+
+.section {
+    margin-bottom: 10%;
+}
+
+.section-big {
+    margin: 11% 0 10% 10%;
+}
+
+.texto-vertical {
+    font-family: 'CRENZO', sans-serif;
+    font-size: 6vw;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    -webkit-text-stroke: 2px #fff;
+    color: transparent; 
+}
+
+.contact-section{
+    display: flex;
+}
+.contact-info {
+    margin: 10% auto 0 auto;
+}
+.contact-info .title {
+    font-family: 'Gotham', sans-serif;
+    font-size: .9rem;
+    font-weight: bold;
+}
+.contact-info .text {
+    font-family: 'Gotham', sans-serif;
+    font-size: .7rem;
+}
+
+.fa-brands {
+    font-size: 1.8rem;
+    color: #fff;
+}
+.redes-sociales {
+    margin-top: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.redes-sociales-projects {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.app-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .app-form-group.buttons {
+    margin-bottom: 0;
+    text-align: right;
+  }
+  
+  .app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #a3a3a3;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+  }
+  
+  .app-form-control::placeholder {
+    color: #a3a3a3;
+  }
+  
+  .app-form-control:focus {
+    border-bottom-color: #fff;
+  }
+  
+  .button-enviar {
+    margin-top: 10%;
+  }
+  .button-projects {
+    margin-top: 26%;
+  }
+
+  .circle-image {
+    border: 2px #fff solid;
+    border-radius: 30%;
+    padding: 10px;
+    height: 45vw;
+  }
+  .circle-image-sub {
+    border-radius: 30%;
+    height: 30vw;
+  }
+
+  .projects-subsection {
+    transform: translateX(40vw) translateY(-40vw);
+  }
+
+  .translate-content {
+    transform: translateY(-30vw);
+  }
+
+@media (min-width: 756px) {
+    #desc {
+        font-size: 1rem;
+    }
+    .ilustrador {
+        font-size: 1rem;
+    }
+    .title {
+        font-size: 1rem;
+    }
+    .contact-info .title {
+        font-size: 1.6rem;
+    }
+    .contact-info .text {
+        font-size: 1rem;
+    }
+    .fa-brands {
+        font-size: 2.8rem;
+    }
+    .projects-subsection {
+        transform: translateX(60vw) translateY(-40vw);
+      }
+}
+
+@media (min-width: 1360px) {
+    #desc {
+        font-size: 1.5rem;
+    }
+    .ilustrador {
+        font-size: 1.5rem;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .contact-info .title {
+        font-size: 2.2rem;
+    }
+    .contact-info .text {
+        font-size: 1.5rem;
+    }
+    .fa-brands {
+        font-size: 3.5rem;
+    }
 }
