@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'CRENZO';
+    font-style: normal;
+    font-weight: 400;
+    src: local('CRENZO'), url('https://fonts.cdnfonts.com/s/52239/CRENZO.woff') format('woff');
+}
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Gotham'), url('https://fonts.cdnfonts.com/s/14898/GothamBook.woff') format('woff');
+}
+
 body {
     background-repeat: no-repeat;
     background-size: 100%;
