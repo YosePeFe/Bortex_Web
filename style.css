@@ -4,6 +4,7 @@
     font-weight: 400;
     src: local('CRENZO'), url('https://fonts.cdnfonts.com/s/52239/CRENZO.woff') format('woff');
 }
+
 @font-face {
     font-family: 'Gotham';
     font-style: normal;
@@ -16,17 +17,20 @@ body {
     background-size: 100%;
     color: white;
 }
+
 body#inicio {
     background-image: url("img/background.jpg");
     background-size: cover;
 }
+
 body#contact {
     background-image: url("./img/background-contact.jpg");
     background-size: 100vw 100vh;
 }
+
 body#projects {
-    background-image: url("img/background-projects.jpg");
-    background-size: 100vw 100vh;
+    background-image: url("img/fondo_proyectos.jpg");
+    background-size: cover;
 }
 
 h2 {
@@ -50,6 +54,7 @@ h2 {
     transform: translateX(-30%);
     margin-top: 13%;
 }
+
 .desc-text-left {
     transform: translateX(40%);
     margin-top: 13%;
@@ -85,20 +90,23 @@ h2 {
     writing-mode: vertical-lr;
     transform: rotate(180deg);
     -webkit-text-stroke: 2px #fff;
-    color: transparent; 
+    color: transparent;
 }
 
-.contact-section{
+.contact-section {
     display: flex;
 }
+
 .contact-info {
     margin: 10% auto 0 auto;
 }
+
 .contact-info .title {
     font-family: 'Gotham', sans-serif;
     font-size: .9rem;
     font-weight: bold;
 }
+
 .contact-info .text {
     font-family: 'Gotham', sans-serif;
     font-size: .7rem;
@@ -108,11 +116,13 @@ h2 {
     font-size: 1.8rem;
     color: #fff;
 }
+
 .redes-sociales {
     margin-top: 20%;
     display: flex;
     justify-content: space-evenly;
 }
+
 .redes-sociales-projects {
     margin-top: 10%;
     display: flex;
@@ -122,14 +132,14 @@ h2 {
 
 .app-form-group {
     margin-bottom: 15px;
-  }
-  
-  .app-form-group.buttons {
+}
+
+.app-form-group.buttons {
     margin-bottom: 0;
     text-align: right;
-  }
-  
-  .app-form-control {
+}
+
+.app-form-control {
     width: 100%;
     padding: 10px 0;
     background: none;
@@ -140,54 +150,69 @@ h2 {
     text-transform: uppercase;
     outline: none;
     transition: border-color .2s;
-  }
-  
-  .app-form-control::placeholder {
+}
+
+.app-form-control::placeholder {
     color: #a3a3a3;
-  }
-  
-  .app-form-control:focus {
+}
+
+.app-form-control:focus {
     border-bottom-color: #fff;
-  }
-  
-  .button-enviar {
+}
+
+.button-enviar {
     margin-top: 10%;
-  }
-  .button-projects {
+}
+
+.button-projects {
     position: absolute;
     bottom: 0;
     left: -36vw;
-  }
+}
 
-  .circle-image {
+.circle-image {
     border: 2px #fff solid;
     border-radius: 30%;
     padding: 10px;
     height: 45vw;
-  }
-  .circle-image-sub {
+}
+
+.circle-image-sub {
     border-radius: 30%;
     height: 28vw;
     width: 14vw;
-  }
+}
 
-  .container-subproject {
+msg-error {
+    color: #c65848;
+}
+
+.g-recaptcha.error {
+    border: solid 2px #c64848;
+    padding: .2em;
+    width: 19em;
+}
+
+.container-subproject {
     position: relative;
-  }
-  .projects-subsection {
+}
+
+.projects-subsection {
     /* transform: translateX(40vw) translateY(-40vw); */
     position: absolute;
     right: 6vw;
     top: -38vw;
-  }
+}
 
-  .mySwiper2 {
+.mySwiper2 {
     height: 40% !important;
     width: 100% !important;
 }
+
 .swiper {
     width: 100% !important;
 }
+
 .image-gallery {
     margin-top: 10%;
 }
@@ -197,27 +222,35 @@ h2 {
     #desc {
         font-size: 1rem;
     }
+
     .ilustrador {
         font-size: 1rem;
     }
+
     .title {
         font-size: 1rem;
     }
+
     .contact-info .title {
         font-size: 1.6rem;
     }
+
     .contact-info .text {
         font-size: 1rem;
     }
+
     .fa-brands {
         font-size: 2.8rem;
     }
+
     .button-projects {
         left: -22vw;
     }
+
     .mySwiper2 {
         width: 30% !important;
     }
+
     .swiper {
         width: 30% !important;
     }
@@ -227,18 +260,23 @@ h2 {
     #desc {
         font-size: 1.5rem;
     }
+
     .ilustrador {
         font-size: 1.5rem;
     }
+
     .title {
         font-size: 1.5rem;
     }
+
     .contact-info .title {
         font-size: 2.2rem;
     }
+
     .contact-info .text {
         font-size: 1.5rem;
     }
+
     .fa-brands {
         font-size: 3.5rem;
     }
